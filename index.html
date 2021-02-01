@@ -4,7 +4,7 @@
       <!--Import Google Icon Font-->
       <link rel="icon" href="./images/favicon.ico" type="image/png" />
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="styles/css/style.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -17,11 +17,13 @@
                 <div class="container">
               <div class="nav-wrapper">
                 <a class="brand-logo"><img src="./images/logo.png" width="120" height="auto"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
                   
                 </ul>
                 <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons"></i></a>
                 <ul class="right hide-on-med-and-down">
+                <ul class="sidenav" id="nav-mobile"></ul>
                 </ul>
               </div>
             </div>
@@ -29,7 +31,8 @@
           </div>
 
         <!-- Side Nav -->
-      
+        
+
         <main>
           <div id="body-content"></div>
       </main>
@@ -66,7 +69,7 @@
 
       <!--JavaScript at end of body for optimized loading-->
       <script src="./index.js" type="module"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="./styles/js/materialize.min.js"></script>
       <script>
           const sideNav = document.querySelectorAll('.sidenav');
           M.Sidenav.init(sideNav);
