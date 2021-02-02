@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             }
         };
-        xhttp.open("GET", "card-action", true);
+        xhttp.open("GET", "", true);
         xhttp.send();
     }
 });
