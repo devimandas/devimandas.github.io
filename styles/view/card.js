@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             }
         };
-        xhttp.open("GET", "", true);
+        xhttp.open("GET", "#stories1", true);
         xhttp.send();
     }
 });
